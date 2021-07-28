@@ -14,3 +14,4 @@ Command              | Description
 ---------------------|------------
 `!hello`             | @usermane, heya!
 `!track`             | Pulls a random career track.
+more to come         | SOON
