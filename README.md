@@ -1,5 +1,7 @@
 # AUSr_Bot
 
+![AUSr_Bot](/AUSr_Bot.png)
+
 This is a simple Twitch.tv chat bot made using Node.js.
 
 This project was simply an exploration into creating a functional Twitch.tv chatbot, and is not intended for serious use as a livestreaming tool.
