@@ -1,5 +1,4 @@
 import tmi from 'tmi.js'
-import { BOT_USERNAME , OAUTH_TOKEN, CHANNEL_1, BLOCKED_WORDS } from './constants'
 import { TRACK_DATA } from './tracklist'
 
 const options = {
