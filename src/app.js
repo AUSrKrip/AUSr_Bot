@@ -81,8 +81,28 @@ client.on('message', (channel, userstate, message, self) => {
     return
   }
 
-	if(message.toLowerCase() === '!hello') {
-    hello(channel, userstate)
+	if(message.toLowerCase() === '!commands') {
+    commands(channel, userstate)
+    return
+  }
+
+  if (commandName === "!lurk") {
+    lurk(channel, userstate)
+    return
+  }
+
+  if (commandName === "!discord") {
+    discord(channel, userstate)
+    return
+  }
+
+  if (commandName === "!coffee") {
+    coffee(channel, userstate)
+    return
+  }
+
+  if (commandName === "!slurk") {
+    slurk(channel, userstate)
     return
   }
 
@@ -170,8 +190,24 @@ function subGiftHandler(channel, username, streakMonths, recipient, methods, use
 
 // commands
 
-function hello (channel, userstate) {
-  client.say(channel, `@${userstate.username}, heya!`)
+function commands (channel, userstate) {
+  client.say(channel, `@${userstate.username}, Command documentation can be found here: https://github.com/AUSrKrip/AUSr_Bot`)
+}
+
+function lurk (channel, userstate) {
+  client.say(channel, `@${userstate.username}, Activated lurk mode`)
+}
+
+function discord (channel, userstate) {
+  client.say(channel, `@${userstate.username}, https://discord.gg/QUkEEvb 🎮`)
+}
+
+function coffee (channel, userstate) {
+  client.say(channel, `@${userstate.username}, will BRB they need coffee stat.`)
+}
+
+function slurk (channel, userstate) {
+  client.say(channel, `@${userstate.username}, Activated sleepy lurk mode ResidentSleeper `)
 }
 
 function checkTwitchChat(userstate, message, channel) {
