@@ -14,7 +14,7 @@ For instructions, please send me a DM here - [twitter.com/AUSr_Krip](https://twi
 
 Command              | Description
 ---------------------|------------
-`!lurk`              | @usermane, heya!
+`!lurk`              | @usermane, Activated lurk mode
 `!track`             | Pulls a random career track.
 `!discord`           | [Discord link](https://discord.gg/QUkEEvb)
 `!coffee`            | @username, will BRB they need coffee stat.
