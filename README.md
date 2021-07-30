@@ -14,6 +14,8 @@ For instructions, please send me a DM here - [twitter.com/AUSr_Krip](https://twi
 
 Command              | Description
 ---------------------|------------
-`!hello`             | @username, heya!
+`!lurk`              | @usermane, heya!
 `!track`             | Pulls a random career track.
-more to come         | SOON
+`!discord`           | [Discord link](https://discord.gg/QUkEEvb)
+`!coffee`            | @username, will BRB they need coffee stat.
+`!slurk`             | Activated sleepy lurk mode ResidentSleeper
