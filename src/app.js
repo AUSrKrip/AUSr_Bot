@@ -1,5 +1,6 @@
 import tmi from 'tmi.js'
 import { TRACK_DATA } from './tracklist'
+import { JOKE_DATA } from './jokes'
 
 const options = {
 	options: { debug: true },
@@ -109,6 +110,12 @@ client.on('message', (channel, userstate, message, self) => {
   if (commandName === "!track") {
     var tracks = TRACK_DATA[Math.floor(Math.random() * TRACK_DATA.length)] + "!";
     client.say(channel, `@${userstate.username}, Your random track is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!joke") {
+    var jokes = JOKE_DATA[Math.floor(Math.random() * JOKE_DATA.length)] + "!";
+    client.say(channel, `${jokes}`);
     return
   }
 
