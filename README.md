@@ -6,6 +6,15 @@ This is a simple Twitch.tv chat bot made using Node.js.
 
 This project was simply an exploration into creating a functional Twitch.tv chatbot, and is not intended for serious use as a livestreaming tool.
 
+## Built-in text events
+
+Events               | Description
+---------------------|------------
+`Hosted`             | Thank you @username for the host of [viewers]!
+`Raid`               | Thank you @username for the raid of [viewers]!
+`Subscription`       | Thank you @username for subscribing!
+`Cheer`              | Thank you @username for the [bits] bits!
+
 ## Commands
 
 Command              | Description
