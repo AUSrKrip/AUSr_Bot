@@ -20,7 +20,11 @@ Events               | Description
 Command              | Description
 ---------------------|------------
 `!lurk`              | @usermane, Activated lurk mode
-`!track`             | Pulls a random career track.
+`!track`             | Random track from anywhere on career.
+`!ninja`             | Random career ninja track.
+`!skill`             | Random career skill game.
+`!stadium`           | Random career stadium track.
+`!trials`            | Random career trials track.
 `!discord`           | [Discord link](https://discord.gg/QUkEEvb)
 `!coffee`            | @username, will BRB they need coffee stat.
 `!slurk`             | Activated sleepy lurk mode ResidentSleeper
