@@ -1,0 +1,1 @@
+export const NINJAS = ['White Belt','Yellow Belt','Orange Belt','Green Belt','Blue Belt','Black Belt','Rise of the Dragon','Curse of the Demon'];

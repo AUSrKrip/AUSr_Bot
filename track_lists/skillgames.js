@@ -1,0 +1,1 @@
+export const SKILL_GAMES = ['Speed Demon','Pinball Wizard','In the Dark','Rocket Man','Steel Ball Run','Trials Wars','Bomb Bouncer','Basketball','Flaming Man','Hurdles from Hell','Out of Control','Power Bike','Touchdown','Hill Climb','Rodeo','Loose Screw'];
