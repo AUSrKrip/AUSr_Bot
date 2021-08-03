@@ -1,6 +1,10 @@
 import tmi from 'tmi.js'
-import { TRACK_DATA } from './tracklist'
 import { JOKE_DATA } from './jokes'
+import { ALL_TRACKS } from '../track_lists/alltracks'
+import { NINJAS } from '../track_lists/ninjalist'
+import { STADIUMS } from '../track_lists/stadiumlist'
+import { TRIALS } from '../track_lists/trialstracks'
+import { SKILL_GAMES } from '../track_lists/skillgames'
 
 const options = {
 	options: { debug: true },
@@ -108,8 +112,32 @@ client.on('message', (channel, userstate, message, self) => {
   }
 
   if (commandName === "!track") {
-    var tracks = TRACK_DATA[Math.floor(Math.random() * TRACK_DATA.length)] + "!";
-    client.say(channel, `@${userstate.username}, Your random track is ${tracks}`);
+    var tracks = ALL_TRACKS[Math.floor(Math.random() * ALL_TRACKS.length)] + "!";
+    client.say(channel, `Your random track is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!ninja") {
+    var tracks = NINJAS[Math.floor(Math.random() * NINJAS.length)] + "!";
+    client.say(channel, `Your random ninja is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!skill") {
+    var tracks = SKILL_GAMES[Math.floor(Math.random() * SKILL_GAMES.length)] + "!";
+    client.say(channel, `Your random skill game is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!stadium") {
+    var tracks = STADIUMS[Math.floor(Math.random() * STADIUMS.length)] + "!";
+    client.say(channel, `Your random stadium is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!trials") {
+    var tracks = TRIALS[Math.floor(Math.random() * TRIALS.length)] + "!";
+    client.say(channel, `Your random track is ${tracks}`);
     return
   }
 
