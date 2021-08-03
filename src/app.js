@@ -198,7 +198,7 @@ function subGiftHandler(channel, username, streakMonths, recipient, methods, use
 // commands
 
 function commands (channel, userstate) {
-  client.say(channel, `@${userstate.username}, Command documentation can be found here: https://github.com/AUSrKrip/AUSr_Bot`)
+  client.say(channel, `/me Command documentation can be found here: https://github.com/AUSrKrip/AUSr_Bot`)
 }
 
 function lurk (channel, userstate) {
