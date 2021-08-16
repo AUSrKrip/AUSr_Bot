@@ -27,7 +27,7 @@ const options = {
 		password: OAUTH_TOKEN
 	},
 	channels: [ 
-        CHANNEL_1 ]
+        ALL_CHANNELS ]
 }
 
 const client = new tmi.Client(options)
