@@ -5,6 +5,13 @@ import { NINJAS } from '../track_lists/ninjalist'
 import { STADIUMS } from '../track_lists/stadiumlist'
 import { TRIALS } from '../track_lists/trialstracks'
 import { SKILL_GAMES } from '../track_lists/skillgames'
+import { LEVEL_1 } from '../ninja_tracks/level-1'
+import { LEVEL_2 } from '../ninja_tracks/level-2'
+import { LEVEL_3 } from '../ninja_tracks/level-3'
+import { LEVEL_4 } from '../ninja_tracks/level-4'
+import { LEVEL_5 } from '../ninja_tracks/level-5'
+import { LEVEL_6 } from '../ninja_tracks/level-6'
+import { LEVEL_7 } from '../ninja_tracks/level-7'
 
 const options = {
 	options: { debug: true },
@@ -144,6 +151,48 @@ client.on('message', (channel, userstate, message, self) => {
   if (commandName === "!joke") {
     var jokes = JOKE_DATA[Math.floor(Math.random() * JOKE_DATA.length)] + "!";
     client.say(channel, `${jokes}`);
+    return
+  }
+	
+  if (commandName === "!lvl1") {
+    var tracks = LEVEL_1[Math.floor(Math.random() * LEVEL_1.length)];
+    client.say(channel, `Your random level 1 is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!lvl2") {
+    var tracks = LEVEL_2[Math.floor(Math.random() * LEVEL_2.length)];
+    client.say(channel, `Your random level 2 is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!lvl3") {
+    var tracks = LEVEL_3[Math.floor(Math.random() * LEVEL_3.length)];
+    client.say(channel, `Your random level 3 is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!lvl4") {
+    var tracks = LEVEL_4[Math.floor(Math.random() * LEVEL_4.length)];
+    client.say(channel, `Your random level 4 is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!lvl5") {
+    var tracks = LEVEL_5[Math.floor(Math.random() * LEVEL_5.length)];
+    client.say(channel, `Your random level 5 is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!lvl6") {
+    var tracks = LEVEL_6[Math.floor(Math.random() * LEVEL_6.length)];
+    client.say(channel, `Your random level 6 is ${tracks}`);
+    return
+  }
+
+  if (commandName === "!lvl7") {
+    var tracks = LEVEL_7[Math.floor(Math.random() * LEVEL_7.length)];
+    client.say(channel, `Your random level 7 is ${tracks}`);
     return
   }
 
