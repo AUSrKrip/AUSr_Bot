@@ -27,3 +27,4 @@ Command              | Description
 `!coffee`            | @username, will BRB they need coffee stat.
 `!slurk`             | Activated sleepy lurk mode ResidentSleeper
 `!joke`              | Pulls a random joke.
+`!lvl1` to `!lvl7`   | Pulls a random ninja track.
