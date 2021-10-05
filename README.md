@@ -28,3 +28,4 @@ Command              | Description
 `!slurk`             | Activated sleepy lurk mode ResidentSleeper
 `!joke`              | Pulls a random joke.
 `!lvl1` to `!lvl7`   | Pulls a random ninja track.
+`!base1` to `!base7` | Baseline tracks.
