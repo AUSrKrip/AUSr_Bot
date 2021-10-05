@@ -117,6 +117,41 @@ client.on('message', (channel, userstate, message, self) => {
     slurk(channel, userstate)
     return
   }
+	
+  if (commandName === "!base1") {
+    baseline1(channel, userstate)
+    return
+  }
+
+  if (commandName === "!base2") {
+    baseline2(channel, userstate)
+    return
+  }
+
+  if (commandName === "!base3") {
+    baseline3(channel, userstate)
+    return
+  }
+
+  if (commandName === "!base4") {
+    baseline4(channel, userstate)
+    return
+  }
+
+  if (commandName === "!base5") {
+    baseline5(channel, userstate)
+    return
+  }
+
+  if (commandName === "!base6") {
+    baseline6(channel, userstate)
+    return
+  }
+
+  if (commandName === "!base7") {
+    baseline7(channel, userstate)
+    return
+  }
 
   if (commandName === "!track") {
     var tracks = ALL_TRACKS[Math.floor(Math.random() * ALL_TRACKS.length)] + "!";
@@ -292,6 +327,52 @@ function coffee (channel, userstate) {
 
 function slurk (channel, userstate) {
   client.say(channel, `@${userstate.username}, Activated sleepy lurk mode ResidentSleeper `)
+}
+
+function baseline1 (channel, userstate) {
+  client.say(channel, `Fatal (E) a [Technical] track by Todwop`)
+  client.say(channel, `Bw fw [BK] Beach a [BW/FW] track by bigkikoo_`)
+  client.say(channel, `MDC (easy) a [Climbing] track by ACEfr30`)
+  client.say(channel, `Old Expendable [BW] a [BW Only] track by Ryphyz`)
+}
+
+function baseline2 (channel, userstate) {
+  client.say(channel, `Malice a [Technical] track by ZZZZZZach`)
+  client.say(channel, `Sky High a [BW/FW] track by cavemandave247`)
+  client.say(channel, `Old Gully a [Climbing] track by Ryphyz`)
+  client.say(channel, `KAGUYA [BW] a [BW Only] track by Tackwarn`)
+}
+
+function baseline3 (channel, userstate) {
+  client.say(channel, `Scorn [Easy] a [Technical] track by slikscythez`)
+  client.say(channel, `Molten [fw/bw] a [BW/FW] track by PanicOD`)
+  client.say(channel, `Blue Pectolite a [Climbing] track by Tackwarn`)
+  client.say(channel, `Seasoning: Spicy a [BW Only] track by ManatheRama`)
+}
+
+function baseline4 (channel, userstate) {
+  client.say(channel, `Rusted a [Technical] track by slikscythez`)
+  client.say(channel, `Zp Japan Wild a [BW/FW] track by Hp_Zpark`)
+  client.say(channel, `Diwaron a [Climbing] track by CoXezZ`)
+  client.say(channel, `Bleu Cocoon a [BW Only] track by twovine`)
+}
+
+function baseline5 (channel, userstate) {
+  client.say(channel, `Penrose a [Technical] track by ZZZZZZach`)
+  client.say(channel, `Guppy a [BW/FW] track by cavemandave247`)
+  client.say(channel, `Ephemeral a [Climbing] track by AwsomeCat`)
+  client.say(channel, `Eclipse Protocol (Full) a [BW Only] track by im0tti`)
+}
+
+function baseline6 (channel, userstate) {
+  client.say(channel, `Scorn a [Technical] track by slikscythez`)
+  client.say(channel, `Insidious a [BW/FW] track by cavemandave247`)
+  client.say(channel, `Mount,Rising a [Climbing] track by cavemandave247`)
+}
+
+function baseline7 (channel, userstate) {
+  client.say(channel, `Barren a [Technical] track by slikscythez`)
+  client.say(channel, `Agony a [Climbing] track by Tobi_22_05`)
 }
 
 function checkTwitchChat(userstate, message, channel) {
